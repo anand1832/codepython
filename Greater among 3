@@ -1,0 +1,9 @@
+a=int(input("Enter one no: "))
+b=int(input("Enter second no:"))
+c=int(input("Enter third no:"))
+if a>=b and a>=c:
+    print("Greater is: ",a)
+elif b>=a and b>=c:
+    print("Greater is: ",b)
+else:
+    print("Greater is: ",c)
